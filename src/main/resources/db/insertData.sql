@@ -1,0 +1,30 @@
+INSERT INTO users VALUES (NULL, 'arek@cacko.pl', 'deb1536f480475f7d593219aa1afd74c');
+-- myPassword
+
+INSERT INTO users VALUES (NULL, 'person@person.pl', 'c1572d05424d0ecb2a65ec6a82aeacbf');
+-- pass2
+
+INSERT INTO users VALUES (NULL, 'a', '0cc175b9c0f1b6a831c399e269772661');
+-- a
+
+
+INSERT INTO movies VALUES (NULL, 'Titanic', 2500);
+INSERT INTO movies VALUES (NULL, 'Matrix', 2000);
+
+INSERT INTO rooms VALUES (NULL, 1, 250);
+INSERT INTO rooms VALUES (NULL, 2, 200);
+
+INSERT INTO shows VALUES (NULL, TIMESTAMP '2017-11-04 20:00:00', 1, 1);
+INSERT INTO shows VALUES (NULL, TIMESTAMP '2017-11-04 21:00:00', 2, 2);
+
+INSERT INTO reservations VALUES (NULL, 'WAITING', 1, 1);
+INSERT INTO reservations VALUES (NULL, 'WAITING', 2, 2);
+
+INSERT INTO reservations VALUES (NULL, 'WAITING', 2, 2);
+
+INSERT INTO roles VALUES (NULL, 'ROLE_ADMIN');
+INSERT INTO roles VALUES (NULL, 'ROLE_USER');
+
+INSERT INTO users_roles VALUES ( 3, 1);
+INSERT INTO users_roles VALUES ( 3, 2);
+
